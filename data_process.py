@@ -5,6 +5,8 @@ import pickle
 import time
 from tqdm import tqdm
 from utils import *
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 
 def main():
